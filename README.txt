@@ -7,18 +7,18 @@ CFMLQuery: Javascript class that manages datasets in CFML's default JSON format
 - By default, uses lcased query column names as field names for the data array
 
 - Can use your own field names
-	Pass either a list of names, or an array of metadata objects
+  Pass either a list of names, or an array of metadata objects
 
 - Updates COLUMNS array with names used
-	Exposes column definitions by field name as a public property
+  Exposes column definitions by field name as a public property
 
 - Optional decorator function can process each data row as it's created
-	Use to format data or create calc'd columns
+  Use to format data or create calc'd columns
 
 - Easily omit columns you don't need
 
 - Load data as many times as desired without recalculating column infos
-	As long as it's in the same format
+  As long as it's in the same format
 
 - Observable
 
