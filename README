@@ -1,8 +1,14 @@
-CFMLQuery: Javascript class that manages datasets in CFML's default JSON format
+----------------
+  CFMLQuery.js
+----------------
+
+https://github.com/davemerrill/CFMLQuery.js
+
+
+Javascript class that manages datasets in CFML's default JSON format
 
 - Converts DATA array to objects with named keys (columns), in place
-
-- Avoids creating two copies of large data
+  Avoids creating two copies of large data
 
 - By default, uses lcased query column names as field names for the data array
 
@@ -13,7 +19,7 @@ CFMLQuery: Javascript class that manages datasets in CFML's default JSON format
   Exposes column definitions by field name as a public property
 
 - Optional decorator function can process each data row as it's created
-  Use to format data or create calc'd columns
+  Use to format data or create calculated columns
 
 - Easily omit columns you don't need
 
@@ -25,3 +31,11 @@ CFMLQuery: Javascript class that manages datasets in CFML's default JSON format
 - Generates a compiled a conversion function once columns are defined, for speed
 
 - Standalone, no dependencies
+
+
+
+There are pretty complete usage docs in the code, demo to come.
+
+License:
+    CFMLQuery.js is open source software by Dave Merrill.
+    Licensed under the MIT License (see LICENSE.txt).
