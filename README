@@ -36,6 +36,10 @@ Javascript class that manages datasets in ColdFusion's default JSON format
 
 There are pretty complete usage docs in the code, demo to come.
 
+This is a somewhat preliminary promote.
+Everything built works I believe, but there are some possible TODOs.
+Could also use some comment/doc cleanup and fleshing out.
+
 License:
     CFMLQuery.js is open source software by Dave Merrill.
     Licensed under the MIT License (see LICENSE.txt).
