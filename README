@@ -5,7 +5,7 @@
 https://github.com/davemerrill/CFMLQuery.js
 
 
-Javascript class that manages datasets in CFML's default JSON format
+Javascript class that manages datasets in ColdFusion's default JSON format
 
 - Converts DATA array to objects with named keys (columns), in place
   Avoids creating two copies of large data
